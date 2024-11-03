@@ -75,8 +75,6 @@ public class ReqresNoPojoTest {
         JsonPath jsonPath= response.jsonPath();
         String error =jsonPath.get("error");
         Assert.assertEquals("Missing password",error);
-
     }
-
 
 }
